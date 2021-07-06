@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/home_banner"
+        android:layout_height="250sp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/banner"
+        android:scaleType="centerCrop"
+        android:background="@color/black"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text_head1"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_college_para1"
+        android:textColor="@color/greyesh_blue"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text_head2"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link1"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link2"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link3"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link4"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link5"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text_head3"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link6"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text_head4"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link7"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link8"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link9"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link10"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link11"
+        android:autoLink="web"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+        android:padding="10dp"/>
+
+</LinearLayout>
+    </ScrollView>
