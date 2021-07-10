@@ -3,6 +3,7 @@
     <string name="home_text_head1">About College</string>
     <string name="about_college_para1">"Suryodaya" is the Synonym for the “Sun Rise” that prepares for the coming days. Sunrise always brings new hope for living, working, at our bests and achieving success in our personal as well as professional life. So the Suryodaya College of Engineering and Technology promises all its students and colleagues, a new rising era by creating technocrats par excellence among them.Suryodaya College of Engineering and Technology (SCET) is run by the National Rural Development and Research Society. Located just at a distance of 1.5 Kms. from Dighori Square on Umrer road, SCET premises has everything that is expected by a world-class institution. The serene environment, lush green surrounding, state-of-the-art infrastructure, visionary management that is set on a mission of creating the world-class institution, is surely going to deliver “Technocrats Par Excellence”.</string>
     <string name="home_text_head2">Latest News</string>
+    <string name="home_text_head5">About Department</string>
 
 
     <string name="link1"><a href="https://scetngp.com/international-electronics-project-contest-2021-by-mypencildotcom/">International electronics project contest – 2021 by MyPencilDotCom</a></string>
@@ -20,4 +21,6 @@
     <string name="link9"><a href="https://scet-com.s3.ap-south-1.amazonaws.com/assets/2021/02/04112118/Advertisement-for-Admission-DSYBE-FYBE-2020-21.pdf">Advertisement for ACAP Admissions to FYBE and DSYBE 2020-21</a></string>
     <string name="link10"><a href="https://scet-com.s3.ap-south-1.amazonaws.com/assets/2021/05/05113814/RTMNU-EXAM-Form-Ex-n-Old-Ex-Students.docx">RTMNU EXAM Form Ex n Old Ex Students (Word)</a></string>
     <string name="link11"><a href="https://scet-com.s3.ap-south-1.amazonaws.com/assets/2021/05/05113934/RTMNU-EXAM-Form-Ex-n-Old-Ex-Students.pdf">RTMNU EXAM Form Ex n Old Ex Students (PDF)</a></string>
+
+    <string name="about_college_para8"> Welcome to the Department of Computer Engineering at Suryodaya College of Engineering and Technology, Nagpur. Computer Engineering is the most flourishing discipline that cultivates at the cross road of new trends in computer science. Department is committed to excellence in teaching, skilling and inculcating a sense of pride and confidence in our students. The department strongly believes in its students’ ability to leave a global footprint, assisted by a highly qualified and well experienced professor.</string>
 </resources>

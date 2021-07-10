@@ -9,22 +9,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        >
 
         <ImageView
             android:id="@+id/home_banner"
-            android:layout_height="250sp"
-            android:layout_width="wrap_content"
-            android:src="@drawable/banner"
-            android:scaleType="centerCrop"
-            android:background="@color/black"/>
+            android:layout_height="90sp"
+            android:layout_width="match_parent"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop" />
 
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/home_text_head1"
+            android:text="@string/home_text_head5"
             android:textSize="23sp"
             android:textColor="@color/black"
             android:padding="10dp"
@@ -33,128 +33,102 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_college_para1"
+            android:text="@string/about_college_para8"
             android:textColor="@color/greyesh_blue"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/home_text_head2"
-            android:textSize="23sp"
-            android:textColor="@color/black"
-            android:padding="10dp" />
-
-        <TextView
             android:id="@+id/ab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/link1"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
+            android:text="Click Below Options to Know more about Computer Department"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1e89c7"
             android:padding="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link2"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link3"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link4"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link5"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/home_text_head3"
-            android:textSize="23sp"
-            android:textColor="@color/black"
-            android:padding="10dp" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link6"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOD"
+            android:layout_margin="8sp"
+            />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/home_text_head4"
-            android:textSize="23sp"
-            android:textColor="@color/black"
-            android:padding="10dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vision N Mission"
+                android:layout_marginTop="8sp"
 
-        <TextView
-            android:layout_width="wrap_content"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Syllabus"
+                android:layout_margin="8sp"
+                />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/link7"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty Members"
+                android:layout_margin="8sp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project Undertook"
+                android:layout_marginTop="8sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/link8"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link9"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link10"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/link11"
-            android:autoLink="web"
-            android:layout_centerInParent="true"
-            android:linksClickable="true"
-            android:padding="10dp"/>
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facilities"
+                android:layout_margin="8sp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievements"
+                android:layout_marginTop="8sp"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MOUs"
+                android:layout_margin="8sp"
+                />
+
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
